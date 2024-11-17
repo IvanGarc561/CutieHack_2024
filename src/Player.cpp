@@ -12,8 +12,11 @@ Player::Player(int mass, int height, int width){
     int width = 1;
 }
 
-void Player::set_Speed() {
+float Player::set_Speed() {
     float force = 9.81 * mass;
+    float drag = -1;
+    return force + drag;
+    
 }
 
 

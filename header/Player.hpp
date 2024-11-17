@@ -10,7 +10,7 @@ class Player {
     public:
         Player();
         Player(int weight, int height, int width);
-        void set_Speed();
+        float set_Speed();
 }
 
 #endif // RECTANGLE_HPP
